@@ -1,0 +1,621 @@
+"Variable...Field.Name","Form.Name","Section.Header","Field.Type","Field.Label","Choices..Calculations..OR.Slider.Labels","Field.Note","Text.Validation.Type.OR.Show.Slider.Number","Text.Validation.Min","Text.Validation.Max","Identifier.","Branching.Logic..Show.field.only.if....","Required.Field.","Custom.Alignment","Question.Number..surveys.only.","Matrix.Group.Name","Matrix.Ranking.","Field.Annotation"
+"mental_health_history_neurodevelopmental_type","mental_health_history"," Neurodevelopmental Disorder(s) (e.g., Attention-Deficit/Hyperactivity Disorder)","text","What is your diagnosed or suspected neurodevelopmental disorder?","","","",,,,"[mental_health_history_neurodevelopmental] = ""1"" or [mental_health_history_neurodevelopmental] = ""2""",,"",,"","",""
+"mental_health_history_neurodevelopmental_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_neurodevelopmental] = ""1"" or [mental_health_history_neurodevelopmental] = ""2""",,"",,"","",""
+"mental_health_history_neurodevelopmental_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_neurodevelopmental] = ""1"" or [mental_health_history_neurodevelopmental] = ""2""",,"",,"","",""
+"mental_health_history_neurodevelopmental_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_neurodevelopmental_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_neurodevelopmental_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_neurodevelopmental_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_neurodevelopmental_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_neurodevelopmental] = ""1"" or [mental_health_history_neurodevelopmental] = ""2""",,"",,"","",""
+"mental_health_history_neurodevelopmental_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_neurodevelopmental_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_neurodevelopmental_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_neurodevelopmental_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_neurodevelopmental_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_neurodevelopmental] = ""1"" or [mental_health_history_neurodevelopmental] = ""2""",,"",,"","",""
+"mental_health_history_neurodevelopmental_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_neurodevelopmental_support_current] = '1'",,"",,"","",""
+"mental_health_history_neurodevelopmental_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_neurodevelopmental_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_neurodevelopmental_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_neurodevelopmental] = ""1"" or [mental_health_history_neurodevelopmental] = ""2""",,"",,"","",""
+"mental_health_history_neurodevelopmental_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_neurodevelopmental_support_past] = '1'",,"",,"","",""
+"mental_health_history_neurodevelopmental_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_neurodevelopmental_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_schizophrenia_type","mental_health_history"," Schizophrenia Spectrum and other Psychotic Disorder(s) (e.g., Schizophrenia)","text","What is your diagnosed or suspected schizophrenia disorder?","","","",,,,"[mental_health_history_schizophrenia] = ""1"" or [mental_health_history_schizophrenia] = ""2""",,"",,"","",""
+"mental_health_history_schizophrenia_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_schizophrenia] = ""1"" or [mental_health_history_schizophrenia] = ""2""",,"",,"","",""
+"mental_health_history_schizophrenia_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_schizophrenia] = ""1"" or [mental_health_history_schizophrenia] = ""2""",,"",,"","",""
+"mental_health_history_schizophrenia_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_schizophrenia_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_schizophrenia_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_schizophrenia_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_schizophrenia_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_schizophrenia] = ""1"" or [mental_health_history_schizophrenia] = ""2""",,"",,"","",""
+"mental_health_history_schizophrenia_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_schizophrenia_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_schizophrenia_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_schizophrenia_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_schizophrenia_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_schizophrenia] = ""1"" or [mental_health_history_schizophrenia] = ""2""",,"",,"","",""
+"mental_health_history_schizophrenia_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_schizophrenia_support_current] = '1'",,"",,"","",""
+"mental_health_history_schizophrenia_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_schizophrenia_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_schizophrenia_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_schizophrenia] = ""1"" or [mental_health_history_schizophrenia] = ""2""",,"",,"","",""
+"mental_health_history_schizophrenia_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_schizophrenia_support_past] = '1'",,"",,"","",""
+"mental_health_history_schizophrenia_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_schizophrenia_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_bipolar_type","mental_health_history"," Bipolar and Related Disorder(s) (e.g., Bipolar I Disorder)","text","What is your diagnosed or suspected bipolar disorder?","","","",,,,"[mental_health_history_bipolar] = ""1"" or [mental_health_history_bipolar] = ""2""",,"",,"","",""
+"mental_health_history_bipolar_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_bipolar] = ""1"" or [mental_health_history_bipolar] = ""2""",,"",,"","",""
+"mental_health_history_bipolar_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_bipolar] = ""1"" or [mental_health_history_bipolar] = ""2""",,"",,"","",""
+"mental_health_history_bipolar_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_bipolar_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_bipolar_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_bipolar_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_bipolar_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_bipolar] = ""1"" or [mental_health_history_bipolar] = ""2""",,"",,"","",""
+"mental_health_history_bipolar_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_bipolar_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_bipolar_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_bipolar_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_bipolar_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_bipolar] = ""1"" or [mental_health_history_bipolar] = ""2""",,"",,"","",""
+"mental_health_history_bipolar_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_bipolar_support_current] = '1'",,"",,"","",""
+"mental_health_history_bipolar_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_bipolar_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_bipolar_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_bipolar] = ""1"" or [mental_health_history_bipolar] = ""2""",,"",,"","",""
+"mental_health_history_bipolar_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_bipolar_support_past] = '1'",,"",,"","",""
+"mental_health_history_bipolar_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_bipolar_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_depressive_type","mental_health_history"," Depressive Disorder(s) (e.g., Major Depressive Disorder)","text","What is your diagnosed or suspected depressive disorder?","","","",,,,"[mental_health_history_depressive] = ""1"" or [mental_health_history_depressive] = ""2""",,"",,"","",""
+"mental_health_history_depressive_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_depressive] = ""1"" or [mental_health_history_depressive] = ""2""",,"",,"","",""
+"mental_health_history_depressive_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_depressive] = ""1"" or [mental_health_history_depressive] = ""2""",,"",,"","",""
+"mental_health_history_depressive_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_depressive_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_depressive_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_depressive_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_depressive_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_depressive] = ""1"" or [mental_health_history_depressive] = ""2""",,"",,"","",""
+"mental_health_history_depressive_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_depressive_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_depressive_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_depressive_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_depressive_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_depressive] = ""1"" or [mental_health_history_depressive] = ""2""",,"",,"","",""
+"mental_health_history_depressive_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_depressive_support_current] = '1'",,"",,"","",""
+"mental_health_history_depressive_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_depressive_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_depressive_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_depressive] = ""1"" or [mental_health_history_depressive] = ""2""",,"",,"","",""
+"mental_health_history_depressive_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_depressive_support_past] = '1'",,"",,"","",""
+"mental_health_history_depressive_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_depressive_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_anxiety_type","mental_health_history"," Anxiety Disorder(s) (e.g., Social Anxiety Disorder)","text","What is your diagnosed or suspected anxiety disorder?","","","",,,,"[mental_health_history_anxiety] = ""1"" or [mental_health_history_anxiety] = ""2""",,"",,"","",""
+"mental_health_history_anxiety_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_anxiety] = ""1"" or [mental_health_history_anxiety] = ""2""",,"",,"","",""
+"mental_health_history_anxiety_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_anxiety] = ""1"" or [mental_health_history_anxiety] = ""2""",,"",,"","",""
+"mental_health_history_anxiety_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_anxiety_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_anxiety_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_anxiety_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_anxiety_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_anxiety] = ""1"" or [mental_health_history_anxiety] = ""2""",,"",,"","",""
+"mental_health_history_anxiety_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_anxiety_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_anxiety_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_anxiety_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_anxiety_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_anxiety] = ""1"" or [mental_health_history_anxiety] = ""2""",,"",,"","",""
+"mental_health_history_anxiety_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_anxiety_support_current] = '1'",,"",,"","",""
+"mental_health_history_anxiety_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_anxiety_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_anxiety_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_anxiety] = ""1"" or [mental_health_history_anxiety] = ""2""",,"",,"","",""
+"mental_health_history_anxiety_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_anxiety_support_past] = '1'",,"",,"","",""
+"mental_health_history_anxiety_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_anxiety_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_ocd_type","mental_health_history"," Obsessive-Compulsive and Related Disorder(s) (e.g., Obsessive-Compulsive Disorder)","text","What is your diagnosed or suspected ocd disorder?","","","",,,,"[mental_health_history_ocd] = ""1"" or [mental_health_history_ocd] = ""2""",,"",,"","",""
+"mental_health_history_ocd_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_ocd] = ""1"" or [mental_health_history_ocd] = ""2""",,"",,"","",""
+"mental_health_history_ocd_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_ocd] = ""1"" or [mental_health_history_ocd] = ""2""",,"",,"","",""
+"mental_health_history_ocd_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_ocd_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_ocd_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_ocd_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_ocd_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_ocd] = ""1"" or [mental_health_history_ocd] = ""2""",,"",,"","",""
+"mental_health_history_ocd_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_ocd_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_ocd_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_ocd_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_ocd_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_ocd] = ""1"" or [mental_health_history_ocd] = ""2""",,"",,"","",""
+"mental_health_history_ocd_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_ocd_support_current] = '1'",,"",,"","",""
+"mental_health_history_ocd_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_ocd_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_ocd_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_ocd] = ""1"" or [mental_health_history_ocd] = ""2""",,"",,"","",""
+"mental_health_history_ocd_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_ocd_support_past] = '1'",,"",,"","",""
+"mental_health_history_ocd_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_ocd_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_trauma_type","mental_health_history"," Trauma-and-Stressor-Related Disorder(s) (e.g., Posttraumatic Stress Disorder)","text","What is your diagnosed or suspected trauma disorder?","","","",,,,"[mental_health_history_trauma] = ""1"" or [mental_health_history_trauma] = ""2""",,"",,"","",""
+"mental_health_history_trauma_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_trauma] = ""1"" or [mental_health_history_trauma] = ""2""",,"",,"","",""
+"mental_health_history_trauma_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_trauma] = ""1"" or [mental_health_history_trauma] = ""2""",,"",,"","",""
+"mental_health_history_trauma_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_trauma_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_trauma_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_trauma_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_trauma_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_trauma] = ""1"" or [mental_health_history_trauma] = ""2""",,"",,"","",""
+"mental_health_history_trauma_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_trauma_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_trauma_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_trauma_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_trauma_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_trauma] = ""1"" or [mental_health_history_trauma] = ""2""",,"",,"","",""
+"mental_health_history_trauma_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_trauma_support_current] = '1'",,"",,"","",""
+"mental_health_history_trauma_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_trauma_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_trauma_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_trauma] = ""1"" or [mental_health_history_trauma] = ""2""",,"",,"","",""
+"mental_health_history_trauma_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_trauma_support_past] = '1'",,"",,"","",""
+"mental_health_history_trauma_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_trauma_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_dissociative_type","mental_health_history"," Dissociative Disorder(s) (e.g., Dissociative Amnesia)","text","What is your diagnosed or suspected dissociative disorder?","","","",,,,"[mental_health_history_dissociative] = ""1"" or [mental_health_history_dissociative] = ""2""",,"",,"","",""
+"mental_health_history_dissociative_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_dissociative] = ""1"" or [mental_health_history_dissociative] = ""2""",,"",,"","",""
+"mental_health_history_dissociative_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_dissociative] = ""1"" or [mental_health_history_dissociative] = ""2""",,"",,"","",""
+"mental_health_history_dissociative_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_dissociative_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_dissociative_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_dissociative_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_dissociative_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_dissociative] = ""1"" or [mental_health_history_dissociative] = ""2""",,"",,"","",""
+"mental_health_history_dissociative_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_dissociative_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_dissociative_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_dissociative_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_dissociative_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_dissociative] = ""1"" or [mental_health_history_dissociative] = ""2""",,"",,"","",""
+"mental_health_history_dissociative_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_dissociative_support_current] = '1'",,"",,"","",""
+"mental_health_history_dissociative_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_dissociative_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_dissociative_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_dissociative] = ""1"" or [mental_health_history_dissociative] = ""2""",,"",,"","",""
+"mental_health_history_dissociative_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_dissociative_support_past] = '1'",,"",,"","",""
+"mental_health_history_dissociative_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_dissociative_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_somatic_type","mental_health_history"," Somatic Symptom and Related Disorder(s) (e.g., Illness Anxiety Disorder)","text","What is your diagnosed or suspected somatic disorder?","","","",,,,"[mental_health_history_somatic] = ""1"" or [mental_health_history_somatic] = ""2""",,"",,"","",""
+"mental_health_history_somatic_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_somatic] = ""1"" or [mental_health_history_somatic] = ""2""",,"",,"","",""
+"mental_health_history_somatic_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_somatic] = ""1"" or [mental_health_history_somatic] = ""2""",,"",,"","",""
+"mental_health_history_somatic_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_somatic_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_somatic_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_somatic_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_somatic_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_somatic] = ""1"" or [mental_health_history_somatic] = ""2""",,"",,"","",""
+"mental_health_history_somatic_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_somatic_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_somatic_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_somatic_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_somatic_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_somatic] = ""1"" or [mental_health_history_somatic] = ""2""",,"",,"","",""
+"mental_health_history_somatic_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_somatic_support_current] = '1'",,"",,"","",""
+"mental_health_history_somatic_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_somatic_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_somatic_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_somatic] = ""1"" or [mental_health_history_somatic] = ""2""",,"",,"","",""
+"mental_health_history_somatic_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_somatic_support_past] = '1'",,"",,"","",""
+"mental_health_history_somatic_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_somatic_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_eating_type","mental_health_history"," Feeding and Eating Disorder(s) (e.g., Anorexia Nervosa)","text","What is your diagnosed or suspected eating disorder?","","","",,,,"[mental_health_history_eating] = ""1"" or [mental_health_history_eating] = ""2""",,"",,"","",""
+"mental_health_history_eating_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_eating] = ""1"" or [mental_health_history_eating] = ""2""",,"",,"","",""
+"mental_health_history_eating_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_eating] = ""1"" or [mental_health_history_eating] = ""2""",,"",,"","",""
+"mental_health_history_eating_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_eating_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_eating_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_eating_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_eating_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_eating] = ""1"" or [mental_health_history_eating] = ""2""",,"",,"","",""
+"mental_health_history_eating_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_eating_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_eating_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_eating_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_eating_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_eating] = ""1"" or [mental_health_history_eating] = ""2""",,"",,"","",""
+"mental_health_history_eating_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_eating_support_current] = '1'",,"",,"","",""
+"mental_health_history_eating_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_eating_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_eating_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_eating] = ""1"" or [mental_health_history_eating] = ""2""",,"",,"","",""
+"mental_health_history_eating_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_eating_support_past] = '1'",,"",,"","",""
+"mental_health_history_eating_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_eating_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_elimination_type","mental_health_history"," Elimination Disorder(s) (e.g., Enuresis)	","text","What is your diagnosed or suspected elimination disorder?","","","",,,,"[mental_health_history_elimination] = ""1"" or [mental_health_history_elimination] = ""2""",,"",,"","",""
+"mental_health_history_elimination_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_elimination] = ""1"" or [mental_health_history_elimination] = ""2""",,"",,"","",""
+"mental_health_history_elimination_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_elimination] = ""1"" or [mental_health_history_elimination] = ""2""",,"",,"","",""
+"mental_health_history_elimination_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_elimination_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_elimination_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_elimination_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_elimination_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_elimination] = ""1"" or [mental_health_history_elimination] = ""2""",,"",,"","",""
+"mental_health_history_elimination_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_elimination_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_elimination_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_elimination_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_elimination_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_elimination] = ""1"" or [mental_health_history_elimination] = ""2""",,"",,"","",""
+"mental_health_history_elimination_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_elimination_support_current] = '1'",,"",,"","",""
+"mental_health_history_elimination_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_elimination_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_elimination_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_elimination] = ""1"" or [mental_health_history_elimination] = ""2""",,"",,"","",""
+"mental_health_history_elimination_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_elimination_support_past] = '1'",,"",,"","",""
+"mental_health_history_elimination_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_elimination_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_sleep_type","mental_health_history"," Sleep-Wake Disorder(s) (e.g., Insomnia)","text","What is your diagnosed or suspected sleep disorder?","","","",,,,"[mental_health_history_sleep] = ""1"" or [mental_health_history_sleep] = ""2""",,"",,"","",""
+"mental_health_history_sleep_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_sleep] = ""1"" or [mental_health_history_sleep] = ""2""",,"",,"","",""
+"mental_health_history_sleep_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_sleep] = ""1"" or [mental_health_history_sleep] = ""2""",,"",,"","",""
+"mental_health_history_sleep_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_sleep_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_sleep_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_sleep_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_sleep_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_sleep] = ""1"" or [mental_health_history_sleep] = ""2""",,"",,"","",""
+"mental_health_history_sleep_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_sleep_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_sleep_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_sleep_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_sleep_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_sleep] = ""1"" or [mental_health_history_sleep] = ""2""",,"",,"","",""
+"mental_health_history_sleep_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_sleep_support_current] = '1'",,"",,"","",""
+"mental_health_history_sleep_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_sleep_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_sleep_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_sleep] = ""1"" or [mental_health_history_sleep] = ""2""",,"",,"","",""
+"mental_health_history_sleep_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_sleep_support_past] = '1'",,"",,"","",""
+"mental_health_history_sleep_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_sleep_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_sexual_type","mental_health_history"," Sexual Dysfunction(s) (e.g., Erectile Disorder)","text","What is your diagnosed or suspected sexual disorder?","","","",,,,"[mental_health_history_sexual] = ""1"" or [mental_health_history_sexual] = ""2""",,"",,"","",""
+"mental_health_history_sexual_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_sexual] = ""1"" or [mental_health_history_sexual] = ""2""",,"",,"","",""
+"mental_health_history_sexual_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_sexual] = ""1"" or [mental_health_history_sexual] = ""2""",,"",,"","",""
+"mental_health_history_sexual_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_sexual_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_sexual_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_sexual_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_sexual_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_sexual] = ""1"" or [mental_health_history_sexual] = ""2""",,"",,"","",""
+"mental_health_history_sexual_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_sexual_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_sexual_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_sexual_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_sexual_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_sexual] = ""1"" or [mental_health_history_sexual] = ""2""",,"",,"","",""
+"mental_health_history_sexual_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_sexual_support_current] = '1'",,"",,"","",""
+"mental_health_history_sexual_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_sexual_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_sexual_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_sexual] = ""1"" or [mental_health_history_sexual] = ""2""",,"",,"","",""
+"mental_health_history_sexual_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_sexual_support_past] = '1'",,"",,"","",""
+"mental_health_history_sexual_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_sexual_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_gender_type","mental_health_history"," Gender Dysphoria","text","What is your diagnosed or suspected gender disorder?","","","",,,,"[mental_health_history_gender] = ""1"" or [mental_health_history_gender] = ""2""",,"",,"","",""
+"mental_health_history_gender_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_gender] = ""1"" or [mental_health_history_gender] = ""2""",,"",,"","",""
+"mental_health_history_gender_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_gender] = ""1"" or [mental_health_history_gender] = ""2""",,"",,"","",""
+"mental_health_history_gender_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_gender_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_gender_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_gender_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_gender_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_gender] = ""1"" or [mental_health_history_gender] = ""2""",,"",,"","",""
+"mental_health_history_gender_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_gender_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_gender_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_gender_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_gender_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_gender] = ""1"" or [mental_health_history_gender] = ""2""",,"",,"","",""
+"mental_health_history_gender_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_gender_support_current] = '1'",,"",,"","",""
+"mental_health_history_gender_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_gender_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_gender_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_gender] = ""1"" or [mental_health_history_gender] = ""2""",,"",,"","",""
+"mental_health_history_gender_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_gender_support_past] = '1'",,"",,"","",""
+"mental_health_history_gender_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_gender_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_disruptive_type","mental_health_history"," Disruptive, Impulse-Control, and Conduct Disorder(s) (e.g., Oppositional-Defiant Disorder)","text","What is your diagnosed or suspected disruptive disorder?","","","",,,,"[mental_health_history_disruptive] = ""1"" or [mental_health_history_disruptive] = ""2""",,"",,"","",""
+"mental_health_history_disruptive_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_disruptive] = ""1"" or [mental_health_history_disruptive] = ""2""",,"",,"","",""
+"mental_health_history_disruptive_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_disruptive] = ""1"" or [mental_health_history_disruptive] = ""2""",,"",,"","",""
+"mental_health_history_disruptive_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_disruptive_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_disruptive_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_disruptive_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_disruptive_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_disruptive] = ""1"" or [mental_health_history_disruptive] = ""2""",,"",,"","",""
+"mental_health_history_disruptive_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_disruptive_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_disruptive_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_disruptive_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_disruptive_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_disruptive] = ""1"" or [mental_health_history_disruptive] = ""2""",,"",,"","",""
+"mental_health_history_disruptive_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_disruptive_support_current] = '1'",,"",,"","",""
+"mental_health_history_disruptive_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_disruptive_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_disruptive_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_disruptive] = ""1"" or [mental_health_history_disruptive] = ""2""",,"",,"","",""
+"mental_health_history_disruptive_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_disruptive_support_past] = '1'",,"",,"","",""
+"mental_health_history_disruptive_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_disruptive_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_substance_type","mental_health_history"," Substance-Related and Addictive Disorder(s)(e.g., Alcohol Use Disorder)","text","What is your diagnosed or suspected substance disorder?","","","",,,,"[mental_health_history_substance] = ""1"" or [mental_health_history_substance] = ""2""",,"",,"","",""
+"mental_health_history_substance_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_substance] = ""1"" or [mental_health_history_substance] = ""2""",,"",,"","",""
+"mental_health_history_substance_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_substance] = ""1"" or [mental_health_history_substance] = ""2""",,"",,"","",""
+"mental_health_history_substance_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_substance_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_substance_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_substance_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_substance_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_substance] = ""1"" or [mental_health_history_substance] = ""2""",,"",,"","",""
+"mental_health_history_substance_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_substance_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_substance_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_substance_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_substance_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_substance] = ""1"" or [mental_health_history_substance] = ""2""",,"",,"","",""
+"mental_health_history_substance_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_substance_support_current] = '1'",,"",,"","",""
+"mental_health_history_substance_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_substance_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_substance_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_substance] = ""1"" or [mental_health_history_substance] = ""2""",,"",,"","",""
+"mental_health_history_substance_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_substance_support_past] = '1'",,"",,"","",""
+"mental_health_history_substance_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_substance_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_neurocognitive_type","mental_health_history"," Neurocognitive Disorder(s) (e.g., Delirium)","text","What is your diagnosed or suspected neurocognitive disorder?","","","",,,,"[mental_health_history_neurocognitive] = ""1"" or [mental_health_history_neurocognitive] = ""2""",,"",,"","",""
+"mental_health_history_neurocognitive_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_neurocognitive] = ""1"" or [mental_health_history_neurocognitive] = ""2""",,"",,"","",""
+"mental_health_history_neurocognitive_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_neurocognitive] = ""1"" or [mental_health_history_neurocognitive] = ""2""",,"",,"","",""
+"mental_health_history_neurocognitive_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_neurocognitive_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_neurocognitive_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_neurocognitive_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_neurocognitive_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_neurocognitive] = ""1"" or [mental_health_history_neurocognitive] = ""2""",,"",,"","",""
+"mental_health_history_neurocognitive_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_neurocognitive_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_neurocognitive_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_neurocognitive_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_neurocognitive_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_neurocognitive] = ""1"" or [mental_health_history_neurocognitive] = ""2""",,"",,"","",""
+"mental_health_history_neurocognitive_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_neurocognitive_support_current] = '1'",,"",,"","",""
+"mental_health_history_neurocognitive_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_neurocognitive_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_neurocognitive_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_neurocognitive] = ""1"" or [mental_health_history_neurocognitive] = ""2""",,"",,"","",""
+"mental_health_history_neurocognitive_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_neurocognitive_support_past] = '1'",,"",,"","",""
+"mental_health_history_neurocognitive_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_neurocognitive_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_personality_type","mental_health_history"," Personality Disorder(s) (e.g., Borderline Personality Disorder)","text","What is your diagnosed or suspected personality disorder?","","","",,,,"[mental_health_history_personality] = ""1"" or [mental_health_history_personality] = ""2""",,"",,"","",""
+"mental_health_history_personality_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_personality] = ""1"" or [mental_health_history_personality] = ""2""",,"",,"","",""
+"mental_health_history_personality_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_personality] = ""1"" or [mental_health_history_personality] = ""2""",,"",,"","",""
+"mental_health_history_personality_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_personality_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_personality_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_personality_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_personality_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_personality] = ""1"" or [mental_health_history_personality] = ""2""",,"",,"","",""
+"mental_health_history_personality_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_personality_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_personality_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_personality_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_personality_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_personality] = ""1"" or [mental_health_history_personality] = ""2""",,"",,"","",""
+"mental_health_history_personality_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_personality_support_current] = '1'",,"",,"","",""
+"mental_health_history_personality_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_personality_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_personality_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_personality] = ""1"" or [mental_health_history_personality] = ""2""",,"",,"","",""
+"mental_health_history_personality_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_personality_support_past] = '1'",,"",,"","",""
+"mental_health_history_personality_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_personality_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_paraphilic_type","mental_health_history"," Paraphilic Disorder(s) (e.g., Exhibitionistic Disorder)","text","What is your diagnosed or suspected paraphilic disorder?","","","",,,,"[mental_health_history_paraphilic] = ""1"" or [mental_health_history_paraphilic] = ""2""",,"",,"","",""
+"mental_health_history_paraphilic_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_paraphilic] = ""1"" or [mental_health_history_paraphilic] = ""2""",,"",,"","",""
+"mental_health_history_paraphilic_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_paraphilic] = ""1"" or [mental_health_history_paraphilic] = ""2""",,"",,"","",""
+"mental_health_history_paraphilic_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_paraphilic_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_paraphilic_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_paraphilic_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_paraphilic_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_paraphilic] = ""1"" or [mental_health_history_paraphilic] = ""2""",,"",,"","",""
+"mental_health_history_paraphilic_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_paraphilic_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_paraphilic_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_paraphilic_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_paraphilic_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_paraphilic] = ""1"" or [mental_health_history_paraphilic] = ""2""",,"",,"","",""
+"mental_health_history_paraphilic_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_paraphilic_support_current] = '1'",,"",,"","",""
+"mental_health_history_paraphilic_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_paraphilic_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_paraphilic_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_paraphilic] = ""1"" or [mental_health_history_paraphilic] = ""2""",,"",,"","",""
+"mental_health_history_paraphilic_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_paraphilic_support_past] = '1'",,"",,"","",""
+"mental_health_history_paraphilic_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_paraphilic_support_past_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_other_type","mental_health_history"," Other","text","What is your diagnosed or suspected other disorder?","","","",,,,"[mental_health_history_other] = ""1"" or [mental_health_history_other] = ""2""",,"",,"","",""
+"mental_health_history_other_year","mental_health_history","","text","What year did you first receive or suspect this diagnosis?","","","",,,,"[mental_health_history_other] = ""1"" or [mental_health_history_other] = ""2""",,"",,"","",""
+"mental_health_history_other_treatment_current","mental_health_history","","yesno","Are you currently receiving treatment for this disorder?
+
+(For example, medication, talk therapy, etc.)
+","","","",,,,"[mental_health_history_other] = ""1"" or [mental_health_history_other] = ""2""",,"",,"","",""
+"mental_health_history_other_treatment_current_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you are currently participating in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_other_treatment_current] = ""1""",,"",,"","",""
+"mental_health_history_other_treatment_current_type_other","mental_health_history","","text","if other, please describe: ","","","",,,,"[mental_health_history_other_treatment_current_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_other_treatment_past","mental_health_history","","yesno","Have you received treatment for this disorder in the past?
+
+(For example, medication, talk therapy, etc.)","","","",,,,"[mental_health_history_other] = ""1"" or [mental_health_history_other] = ""2""",,"",,"","",""
+"mental_health_history_other_treatment_past_type","mental_health_history","","checkbox","Please select which type(s) of treatment options you have participated in for this disorder.
+
+(Check all that apply)","0, Psychotherapy (""Talk therapy"") or counseling | 1, Medication | 2, Support groups | 3, Residential mental health treatment | 4, Other","","",,,,"[mental_health_history_other_treatment_past] = ""1""",,"",,"","",""
+"mental_health_history_other_treatment_past_type_other","mental_health_history","","text","If other, please describe: ","","","",,,,"[mental_health_history_other_treatment_past_type(4)] = ""1""",,"",,"","",""
+"mental_health_history_other_support_current","mental_health_history","","yesno","Are you currently receiving any other form of mental health support for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_other] = ""1"" or [mental_health_history_other] = ""2""",,"",,"","",""
+"mental_health_history_other_support_current_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you are receiving for this disorder.
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_other_support_current] = '1'",,"",,"","",""
+"mental_health_history_other_support_current_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_other_support_current_type(5)] = ""1""",,"",,"","",""
+"mental_health_history_other_support_past","mental_health_history","","yesno","Have you received any other form of mental health support in the past for this disorder?
+
+(For example, online forums, crisis hotlines, community programs, religious institutions, etc.)","","","",,,,"[mental_health_history_other] = ""1"" or [mental_health_history_other] = ""2""",,"",,"","",""
+"mental_health_history_other_support_past_type","mental_health_history","","checkbox","Please select which type(s) of mental health support you received for this disorder. 
+
+(Check all that apply)","1, Online forums | 2, Crisis hotlines | 3, Community outreach programs | 4, Religious institutions | 5, Other","","",,,,"[mental_health_history_other_support_past] = '1'",,"",,"","",""
+"mental_health_history_other_support_past_type_other","mental_health_history","","text","If other, please describe:","","","",,,,"[mental_health_history_other_support_past_type(5)] = ""1""",,"",,"","",""
