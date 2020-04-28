@@ -1,1 +1,10 @@
 *.mp4
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# Temporary files
+*.rds
+*.html
+*_cache/
+*_files/
